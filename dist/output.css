@@ -2856,6 +2856,11 @@ footer {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .max-sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 640px) {
