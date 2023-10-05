@@ -7,14 +7,14 @@ btn.addEventListener("click", () => {
  
 
 
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
-    duration: 2500,
-    delay: 400,
-})
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '60px',
+//     duration: 2500,
+//     delay: 400,
+// })
 
-sr.reveal(`.image--home, .aboutText, .card-right`, {origin: 'right'})
-srreveal(` .about, .card--left `, {origin: 'left'})
- sr.reveal(`.text-top, .latest--title, .card--top, .nav`, {origin: 'top'})
- sr.reveal(`.text-bottom, .card--bottom`, {origin: 'bottom'})
+// sr.reveal(`.image--home, .aboutText, .card-right`, {origin: 'right'})
+// sr.reveal(` .about, .card--left `, {origin: 'left'})
+//  sr.reveal(`.text-top, .latest--title, .card--top, .nav`, {origin: 'top'})
+//  sr.reveal(`.text-bottom, .card--bottom`, {origin: 'bottom'})
