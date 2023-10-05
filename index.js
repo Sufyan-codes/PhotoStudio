@@ -6,14 +6,15 @@ btn.addEventListener("click", () => {
 });
  
 
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2500,
     delay: 400,
-}) 
+})
 
-sr.reveal(`.about , `, {delay:600, origin: 'right', interval: 100})
-sr.reveal(` .aboutText , `, {delay:600, origin: 'left', interval: 100})
-// sr.reveal(`.home__text, .oval, .about__intro`, {origin: 'top'})
-// sr.reveal(`.about__content, .connect, .form`, {origin: 'bottom'})
+sr.reveal(`.image--home, .aboutText, .card-right`, {origin: 'right'})
+sr.reveal(` .about, .card--left `, {origin: 'left'})
+ sr.reveal(`.text-top, .latest--title, .card--top, .nav`, {origin: 'top'})
+ sr.reveal(`.text-bottom, .card--bottom`, {origin: 'bottom'})
