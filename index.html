@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
     <title>PhotoStudio</title>
 </head>
@@ -62,20 +63,29 @@
     <section class="home max-w-6xl  px-4 py-32" id="home">
 
         <div class="home text-center" id="home">
+            <div data-aos="fade-down">
             <h1 class="text-top large-text max-md:text-5xl max-sm:text-3xl text-8xl mb-2" id="text-top">
                 Creative PhotoStudio
             </h1>
-
-
+        </div>
+            <div data-aos="zoom-in-down">
             <div class="image--circle flex items-center justify-center border-4 border-black w-96 h-52 max-sm:w-80"
                 id="image--circle">
+                
+                    
+                
                 <img class="image--home" src="img/Sunflowers.jpeg" alt="" id="image--home">
                 
             </div>
-            
+        </div>
+        <div data-aos="fade-up">
             <h1 class="text-bottom large-text max-md:text-5xl max-sm:text-3xl text-8xl mt-2" id="text-bottom">
                 Open, everyday .
             </h1>
+
+
+            </div>
+
 
 
             <div class="grid place-items-center mt-10">
@@ -266,7 +276,10 @@
         </div>
     </footer>
     <script src="scrollreveal.min.js"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="index.js"></script>
 </body>
 
