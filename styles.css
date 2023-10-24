@@ -32,7 +32,10 @@ body {
 .logo {
   font-family: var(---medium--text);
 }
-
+.header {
+  background-color: var(---body--text);
+  z-index: 9999;
+}
 .large-text {
   font-family: var(---large--text);
 }
@@ -107,7 +110,9 @@ textarea {
   resize: none;
 }
 
-
+.textBottom {
+  text-align: center;
+}
 /* 
 .about--img-section {
   width: 30rem;
